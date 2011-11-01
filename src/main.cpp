@@ -1,9 +1,11 @@
 //
 //  main.cpp
 //  Ice
+//  This class file will oversee all others... sorta obvious.
 
 #include <iostream>
 #include "IceConfig.h"
+
 
 int main (int argc, const char * argv[])
 {
