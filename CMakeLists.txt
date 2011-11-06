@@ -19,16 +19,26 @@ if ( NOT SDL_FOUND )
 message ( FATAL_ERROR "SDL not found!" )
 endif ( NOT SDL_FOUND )
 
-find_package(OpenGL)
+find_package(OpenGL REQUIRED)
+find_package(Boost COMPONENTS system filesystem REQUIRED)
+
 
 if(APPLE)
 set(ALL_OSX_SRCS src/osx/SDLMain.m src/osx/SDLMain.h)
+set (OSX_HEADERS "/opt/local/include"
+)
+
+include_directories(
+${OSX_HEADERS}
+) 
 endif()
 
 link_libraries (
 ${SDL_LIBRARY}
 ${GLUT_LIBRARY}
 ${OPENGL_LIBRARY}
+${Boost_FILESYSTEM_LIBRARY}
+${Boost_SYSTEM_LIBRARY}
 )
 
 

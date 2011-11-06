@@ -8,7 +8,6 @@
 #include <SDL/SDL.h>
 #include <SDL/SDL_opengl.h>
 
-
 void inceptoProvehamus();
 void terminoProvehamus();
 bool vestibulumReactor(int *fullscreen);
