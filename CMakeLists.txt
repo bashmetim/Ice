@@ -20,7 +20,7 @@ message ( FATAL_ERROR "SDL not found!" )
 endif ( NOT SDL_FOUND )
 
 find_package(OpenGL REQUIRED)
-find_package(Boost COMPONENTS system filesystem REQUIRED)
+find_package(Boost COMPONENTS system thread filesystem REQUIRED)
 
 
 if(APPLE)
@@ -39,6 +39,7 @@ ${GLUT_LIBRARY}
 ${OPENGL_LIBRARY}
 ${Boost_FILESYSTEM_LIBRARY}
 ${Boost_SYSTEM_LIBRARY}
+${Boost_THREAD_LIBRARY}
 )
 
 
