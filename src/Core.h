@@ -61,3 +61,10 @@ public:
     void loadData();
     void callUponKronos();
 };
+
+// Stellar Classes
+// Point is the base class for all of our objects. 
+class point {
+};
+class pointAggregate {
+};

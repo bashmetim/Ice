@@ -50,4 +50,4 @@ FILE(GLOB ALL_CPP_SRCS src/*.cpp)
 FILE(GLOB ALL_H_SRCS src/*.h)
 FILE(GLOB ALL_D_SRCS src/*.d)
 
-add_executable(Ice MACOSX_BUNDLE ${ALL_CPP_SRCS} ${ALL_H_SRCS} ${ALL_D_SRCS} ${ALL_OSX_SRCS})
+add_executable(Ice ${ALL_CPP_SRCS} ${ALL_H_SRCS} ${ALL_D_SRCS} ${ALL_OSX_SRCS})

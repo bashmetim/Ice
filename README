@@ -1,0 +1,11 @@
+	This project's goal is to model the flow of matter in interstellar space, primarily the formation of nebulas and stellar nurseries from the ISM.
+
+1. The ISM & Nebula Formation
+2. The Code's Goal
+3. The Code's Layout
+4. Compile Instructions
+5. How to Use
+
+1.	The interstellar medium (ISM) is the collection of matter, from dust to cosmic rays, that fills interstellar space. The ISM is commonly broken down into three phases, based upon temperature. The the coldest of these consists of matter colder that 300K, which would be mainly clouds of hydrogen. The next phase is that of matter around 10^4K, which would be mostly rarefied gases. The last of these phases, would be matter around 10^6K, which is both the hottest and the largest in volume of any of these three phases.
+
+...
